@@ -1,0 +1,8 @@
+<h1>Pages#home</h1>
+
+<p>find me in app/views/pages/home.htnl.erb</p>
+
+<% if user_signed_in? %>
+ <p> <%= current_user.email %> is signed in </p>
+<% end %>
+
